@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora flex</title>
+    <style>
+        body{
+            background-color: rgb(27, 32, 27);
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS : Calculadora Flex</h1>
+    <img src="neutro.png" alt="Calculadora Flex" id="status">
+    <form name="frmFlex">
+        <input type="text" placeholder="Etanol" size="10" name= "txtEtanol"> 
+        <input type="text" placeholder="Gasolina" size="10" name="txtGasolina">
+        <!--Atributo NAME usado para controle do que é enviado dos dados enviados junto com o formulario e poder capturar  o que for digitado pelo usuário-->  
+      
+        <input type="button" value="Vantagem" onclick="calcular ()"> 
+        <input type="Reset" value="Limpar" onclick="resetar()">
+        <script src="calc-flex.js"></script> <!--Linka o documento JS ao HTMl-->
+    </form>
+    
+</body>
+</html>
